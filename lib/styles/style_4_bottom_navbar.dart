@@ -56,17 +56,17 @@ class Style4BottomNavBar extends StatelessWidget {
         children: <Widget>[
           Row(
             children: <Widget>[
-              AnimatedContainer(
-                duration: itemAnimationProperties.duration,
-                curve: itemAnimationProperties.curve,
-                width: itemWidth * navBarConfig.selectedIndex,
-                height: 4,
-              ),
+              // AnimatedContainer(
+              //   duration: itemAnimationProperties.duration,
+              //   curve: itemAnimationProperties.curve,
+              //   width: itemWidth * navBarConfig.selectedIndex,
+              //   height: 4,
+              // ),
               AnimatedContainer(
                 duration: itemAnimationProperties.duration,
                 curve: itemAnimationProperties.curve,
                 width: itemWidth,
-                height: 4,
+                height: 2,
                 alignment: Alignment.center,
                 decoration: BoxDecoration(
                   color: navBarConfig.selectedItem.activeForegroundColor,
